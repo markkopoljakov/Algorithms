@@ -85,10 +85,10 @@
 		  <script src="https://algorithmia.com/v1/clients/js/algorithmia-0.2.1.js" type="text/javascript"></script>
 		  <script>
 			var input = "Contact Markko by email: markko.poljakov@khk.com or markko.poljakov@gmail.ee";
-			Algorithmia.client("sim83t2KyKuazNrADP4GmqqSwyA1")
-			.algo("cindyxiaoxiaoli/EmailExtractor/0.2.0?timeout=300") // timeout is optional
-			.pipe(input)
-			.then(function(output) { 
+				Algorithmia.client("sim83t2KyKuazNrADP4GmqqSwyA1")
+				.algo("cindyxiaoxiaoli/EmailExtractor/0.2.0?timeout=300") // timeout is optional
+				.pipe(input)
+				.then(function(output){ 
 				console.log(output);
 			});
  		 </script>
