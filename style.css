@@ -1,0 +1,55 @@
+body {
+  font-family: 'arial';
+}
+#header {
+  background-color: black;
+  padding: 4px;
+  color: white;
+  overflow: auto;
+  display: flex;
+  width:50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+#header h1 {
+  margin-left: 5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.col-sm {
+  height: 70px;
+  justify-content:center;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+#keyboard {
+  text-align: center;
+  background-color: black;
+  color: #18EA7E;
+  width: 75%;
+  padding: 10px;
+  margin: auto;
+}
+#keyboard button {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border:none;
+  background-color: white;
+}
+#newGame {
+  text-align: center;
+  margin: 15px;
+}
+#newGame_button {
+  color:white;
+  background-color: black;
+  font-size: 25px;
+  border:none;
+}
